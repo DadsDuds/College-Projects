@@ -1,5 +1,5 @@
-# ENGN2045 - CV PROJECT
-# Marshall Sullivan
+# Neural Style Transfer program that merges two styles from two different images.
+# Actually super proud of this one.
 
 # A BUNCH OF MODULES
 import os                      # this module provides a way of using operating system functionality
@@ -9,21 +9,7 @@ import keras                   # deep learning module with various predefined cl
 import keras.preprocessing     # utilizes the preprocessing tools from keras to work with our images
 import scipy.optimize          # this package provides optimization algorithms (though it's only used for one line - crucial nonetheless)
 import tensorflow as tf        # open-source library in the sense that it's a math library specialized for machine learning
-
-''' Okay so, funny story.
-    I was not aware that a sequel for tensorflow was already made
-    So after I had ran this initial program I came across a confusing error:
-        tf.gradients is not supported when eager execution is enabled. Use tf.GradientTape instead.
-    After seeking the help from the almighty StackOverflow peeps,
-    turns out, that function is deprecated in favor of 2.0
-    But even when using tf.GradientTape, it seemed to only cause more errors.
-    So the only solution was the enable a setting which disables eager execution
-    and it worked.
-    In the future, I'll remember to use tensorflow 2.0
-    
-    So tl;dr DON'T DO THIS LOL '''
-    
-tf.compat.v1.disable_eager_execution()   # see above
+tf.compat.v1.disable_eager_execution()  
 
 # Evaluator class makes it possible to compute loss and gradients in one pass
 class Evaluator(object):
