@@ -1,5 +1,4 @@
-# ENGN2062 - AI PROJECT
-# Marshall Sullivan
+# Janky program that works maybe 60% of the time.
 
 import cv2
 import imutils
