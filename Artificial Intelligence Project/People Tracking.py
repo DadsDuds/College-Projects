@@ -1,4 +1,5 @@
 # Janky program that works maybe 60% of the time.
+# Maybe I'll revisit this someday.
 
 import cv2
 import imutils
