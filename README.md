@@ -1,2 +1,3 @@
 # College-Projects
-A small collection of past coding projects for my university that are posted purely for archiving purposes.
+A small collection of my final projects. They were completed during my junior year in college.
+Some tweaks may be made in the forseeable future.
