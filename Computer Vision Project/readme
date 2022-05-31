@@ -1,0 +1,5 @@
+This project was completed for my Computer Vision class during my junior year.
+It utilizes many libraries that pair well with machine learning modules like Tensorflow and Keras.
+The goal of this project was to imitate Neural Style Transfer in Python. (As far as I know, it is possible in C++).
+The code will read images in jpg/png format and the user is allowed to tweak the settings in order to get a desirable result.
+The resulting image will be a merge of the two selected photos' styles and colors.
