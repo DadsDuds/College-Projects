@@ -1,0 +1,3 @@
+This project was created during my junior year. It utilizes a pre-trained model for human detection and draws a box around a person.
+The code will run for images, videos, and even a web camera! As long as the correct paths are detected, this should run without any issues.
+You may also run the program through the Command Prompt and parse specific arguments to their respective file paths.
